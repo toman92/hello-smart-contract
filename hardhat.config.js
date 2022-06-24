@@ -4,6 +4,7 @@
 
 require('dotenv').config();
 require("@nomiclabs/hardhat-ethers");
+require("@nomiclabs/hardhat-etherscan");
 
 const { API_URL, PRIVATE_KEY, ETHERSCAN_KEY } = process.env;
 
@@ -18,6 +19,6 @@ module.exports = {
         }
     },
     etherscan: {
-        apiKey: ETHERSCAN_KEY
+        apiKey: "JDSQTUSJ95RUVBCV8QI5GWWQ7GVGSSNGBV"
     }
 };
